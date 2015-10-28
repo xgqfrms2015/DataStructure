@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <!--media query-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+    <!--
+        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+        -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/test.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fullpage.min.css" media="screen">
+    <!--CDN
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.css" media="screen">
+    -->
+    <title>DSQCW | xgqfrms</title>
+</head>
+<body>
+<div class="container1" id="fullpage">
+    <div class="section section1 active">
+        <img src="images/0.png">
+    </div>
+    <div class="section section2">
+        <div class="slide">
+            <img src="images/1.jpg">
+        </div>
+        <div class="slide">
+            <img src="images/2.jpg">
+        </div>
+        <div class="slide">
+            <img src="images/3.jpg">
+        </div>
+    </div>
+    <div class="section section3">
+        <img src="images/4.jpg">
+    </div>
+    <div class="section section4">
+        <img src="images/5.jpg">
+    </div>
+    <div class="section section5">
+        <div class="Container_footer">
+            <div class="myfooter1">
+                1xxxxxxxxxxxxxxxxxxxxx11111111111111<br/>
+                2xxxxxxxxxxxxxxxxxxxxx11111111111111<br/>
+                3xxxxxxxxxxxxxxxxxxxxx11111111111111<br/>
+                4xxxxxxxxxxxxxxxxxxxxx11111111111111<br/>
+                5xxxxxxxxxxxxxxxxxxxxx11111111111111<br/>
+                6xxxxxxxxxxxxxxxxxxxxx11111111111111<br/>
+                7xxxxxxxxxxxxxxxxxxxxx11111111111111<br/>
+            </div>
+            <div class="myfooter">
+                <span>© 2015 xgqfrms<a href="mailto:xgqfrms@gmail.com">Contact Me</a><img src="images/blacktocat.png" alt="blacktocat.png"/><a href="https://github.com/xgqfrms/">Follow Me</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="localLibrary">
+    <!--jquery-2.x  does not support Internet Explorer 6, 7, or 8--
+    <script src="javascripts/jquery-2.1.4.min.js"></script>
+    -->
+    <script src="javascripts/jquery-1.11.1.min.js"></script>
+    <script src="javascripts/jquery.fullpage.min.js"></script>
+    <script src="javascripts/jquery.easings.min.js"></script>
+    <script src="javascripts/jquery.slimscroll.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                sectionsColor:['red','green','blue','red','blue'],
+                controlArrows: true,
+                verticalCentered: true,
+                resize : false
+            });
+
+        });
+    </script>
+</div>
+</body>
+</html>

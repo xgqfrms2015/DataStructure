@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #ff00ff;
+    /*background-color: grey;*/
+    font-size: 40px;
+}
+#myHeader{
+    position: fixed;
+    top: 0;
+    left: 40%;
+    font-size: 40px;
+    }
+.myFooter{
+    position: fixed;
+    bottom: 0;
+    font-size: 20px;
+    left: 40%;
+    color: #ff0000;
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+}
+
+
