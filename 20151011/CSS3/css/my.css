@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: #777777;
+  border: 1px solid green;
+  margin: 10px 10px 10px 10px;
+  padding: 0;
+  overflow: hidden;
+}
+#css3_flash{
+	width: 200px;
+	height:200px;
+	background-color: #abcdef;
+	animation: css3Animation 5s;
+	/*banding animation name*/
+}
+/*
+请用百分比来规定变化发生的时间，或用关键词 "from" 和 "to"，等同于 0% 和 100%
+*/
+/*
+@keyframes css3Animation{
+	from{
+		background-color: red;
+		border: 1px solid #ffffff;
+	}
+	to{
+		background-color: green;
+		border: 7px solid #000000;
+	}
+}
+*/
+/*Chrome 和 Safari 需要前缀 -webkit-
+@-webkit-keyframes css3Animation{
+	from{
+		background-color: red;
+		border: 1px solid #ffffff;
+	}
+	to{
+		background-color: green;
+		border: 7px solid #000000;
+	}
+}
+*/
+@keyframes css3Animation{
+	0%{
+		background-color: red;
+		border: 1px solid #ffffff;
+	}
+	25%{
+		background-color: green;
+		border: 3px solid #bbbbbb;
+	}
+	50%{
+		background-color: blue;
+		border: 5px solid #888888;
+	}
+	75%{
+		background-color: white;
+		border: 7px solid #444444;
+	}
+	100%{
+		background-color: black;
+		border: 9px solid #000000;
+	}
+}
+/*Chrome 和 Safari 需要前缀 -webkit-*/
+@-webkit-keyframes css3Animation{
+	0%{
+		background-color: red;
+		border: 1px solid #ffffff;
+	}
+	25%{
+		background-color: green;
+		border: 3px solid #bbbbbb;
+	}
+	50%{
+		background-color: blue;
+		border: 5px solid #888888;
+	}
+	75%{
+		background-color: white;
+		border: 7px solid #444444;
+	}
+	100%{
+		background-color: black;
+		border: 9px solid #000000;
+	}
+}

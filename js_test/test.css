@@ -1,0 +1,9 @@
+html{
+    /*cursor: url("images/cursor_0.svg"), pointer;*/
+    cursor: url("images/cursor0.PNG"), pointer;
+
+}
+a:hover{
+    /*cursor: url("images/cursor_1.svg"), pointer;*/
+    cursor: url("images/cursor1.PNG"), pointer;
+}

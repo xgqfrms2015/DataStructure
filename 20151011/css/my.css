@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: #777777;
+  border: 1px solid green;
+  margin: 10px 10px 10px 10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container form {
+  border: 1px solid red;
+  width: 400px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background-color: #abcdef;
+}
+#flash{
+	width: 200px;
+	height:200px;
+	background-color: #abcdef;
+	animation: myAnimation 5s;//banding animation
+}
+/*
+请用百分比来规定变化发生的时间，或用关键词 "from" 和 "to"，等同于 0% 和 100%
+*/
+
+@keyframes myAnimation{
+	from{
+		background-color: red;
+		border: 1px solid #ffffff;
+	}
+	to{
+		background-color: green;
+		border: 7px solid #000000;
+	}
+}
+/*Chrome 和 Safari 需要前缀 -webkit-*/
+@-webkit-keyframes myAnimation{
+	from{
+		background-color: red;
+		border: 1px solid #ffffff;
+	}
+	to{
+		background-color: green;
+		border: 7px solid #000000;
+	}
+}
