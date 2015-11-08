@@ -6,14 +6,15 @@ body{
     margin: 0;
     padding: 0;
     color: #ff00ff;
-    /*background-color: grey;*/
-    font-size: 40px;
+    background-color: grey;
+    /*font-size: 40px;*/
 }
 #myHeader{
     position: fixed;
     top: 0;
-    left: 40%;
-    font-size: 40px;
+    margin: auto;
+    left: 15%;
+    font-size: 3rem;
     }
 .myFooter{
     position: fixed;
