@@ -63,7 +63,26 @@ body{
     bottom: 30px;
     color: #28ff4b;
 }
-
+#QRcode0{
+    visibility: visible;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+    transition: ;
+}
+#QRcode1{
+    visibility: hidden;
+    z-index: -9999;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding: 0px;
+    margin: 0px;
+}
 .myFooter{
     margin: 0;
     padding: 0;
