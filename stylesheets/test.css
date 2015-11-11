@@ -23,11 +23,17 @@ body{
     margin: 0;
     padding-left: 12%;
 }
-#myHeader img{
-    margin: auto;
+#myHeader a{
+    margin: 0px;
     padding-left: 1%;
-    width:55px;
-    height: 55px;
+}
+#myHeader img{
+    border: 1px solid black;/*red test*/
+    border-radius: 23px;
+    margin:0px;
+    padding: 0px;
+    width:56px;
+    height: 56px;
 }
 .container1{
     display: block;
@@ -71,7 +77,7 @@ body{
     border: 1px solid red;
     padding: 0px;
     margin: 0px;
-    transition: ;
+    /*transition: ;*/
 }
 #QRcode1{
     visibility: hidden;
@@ -124,7 +130,7 @@ p::selection{
     color: #00ff0f;
 }
 #share_content{
-    visibility: hidden;//hidden
+    visibility: hidden;/*hidden*/
     border-radius: 3px;
     border: dashed gold;
 }
