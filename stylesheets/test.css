@@ -24,14 +24,14 @@ body{
     padding-left: 12%;
 }
 #myHeader a{
-    margin: 0px;
+    margin: 0;
     padding-left: 1%;
 }
 #myHeader img{
     border: 1px solid black;/*red test*/
     border-radius: 23px;
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding: 0;
     width:56px;
     height: 56px;
 }
@@ -69,47 +69,66 @@ body{
     bottom: 30px;
     color: #28ff4b;
 }
-#QRcode0{
+#QRcode{
     visibility: visible;
     width: 30px;
     height: 30px;
     border-radius: 2px;
     border: 1px solid red;
-    padding: 0px;
-    margin: 0px;
-    /*transition: ;*/
+    padding: 0;
+    margin: 0;
+    /*transition: width 2s, height 2s, transform 2s;*/
 }
-#QRcode1{
-    visibility: hidden;
-    z-index: -9999;
+#QRcode2:hover{
+    /*visibility: hidden*/
     width: 100px;
     height: 100px;
     border-radius: 5px;
     border: 1px solid red;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
+.QRcode{
+    float: right;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /*background-color: #0000ff;*/
+    width:35%;
+    height: 100%;
+    color: #ffffff;
+    /*opacity: 0.3;*/
+}
+
 .myFooter{
     margin: 0;
     padding: 0;
+    /*padding-top: 2px;/!*test*!/*/
     width: 100%;
     height: 5%;
     position: fixed;
     bottom: 0;
+    background-color: #151515;
 }
 .myfooter{
-    padding-left: 35%;
-    background-color: #151515;
-    width:100%;
+    float: left;
+    position: relative;
+    margin: 0;
+    /*padding: 0;*/
+    padding-left: 32%;
+    /*background-color: #ff0000;*/
+    /*opacity: 0.3;*/
+    /*background-color: #151515;*/
+    width:33%;
     height: 100%;
     /*bottom: 0;*/
     font-size: 20px;
     color: #ffffff;
-
 }
+
 .myfooter span{
     margin: 0;
-    padding: 2px;
+    padding: 0;
 }
 .myfooter img{
     margin: 0;
